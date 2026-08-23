@@ -1,0 +1,8 @@
+[Desktop Entry]
+Categories=Utility;
+Exec=sh -c 'systemctl --user start seanime.service && sleep 0.5 && xdg-open http://localhost:43211'
+Icon=seanime
+Name=Seanime Server
+StartupNotify=true
+Terminal=false
+Type=Application

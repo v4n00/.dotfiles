@@ -9,7 +9,6 @@ eval "$(starship init zsh)"
 ZPLUGINDIR=$HOME/.zsh/plugins
 [[ ! -d $ZPLUGINDIR/zsh-autosuggestions ]] && git clone https://github.com/zsh-users/zsh-autosuggestions $ZPLUGINDIR/zsh-autosuggestions; source $ZPLUGINDIR/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 [[ ! -d $ZPLUGINDIR/zsh-syntax-highlighting ]] && git clone https://github.com/zsh-users/zsh-syntax-highlighting/ $ZPLUGINDIR/zsh-syntax-highlighting; source $ZPLUGINDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
-[[ ! -d $ZPLUGINDIR/zsh-you-should-use ]] && git clone https://github.com/MichaelAquilina/zsh-you-should-use $ZPLUGINDIR/zsh-you-should-use; source $ZPLUGINDIR/zsh-you-should-use/zsh-you-should-use.plugin.zsh
 
 # options
 setopt auto_cd

@@ -22,15 +22,11 @@ bindkey '^f' autosuggest-accept
 bindkey -e
 
 # aliases
-alias ls='ls --color'
+alias ls='eza --icons=auto'
 alias l='ls -lah'
 alias ll='ls -lh'
 alias lt='ls -lhtr'
-alias grep='grep --color'
-alias history='history 1'
-alias md='mkdir -p'
-alias rd='rm -rf'
-alias mx='chmod a+x'
+alias grep='rg --color'
 alias -g ...='../..'
 alias -g ....='../../..'
 alias -g .....='../../../..'

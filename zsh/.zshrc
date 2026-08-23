@@ -13,7 +13,7 @@ ZPLUGINDIR=$HOME/.zsh/plugins
 # options
 setopt auto_cd
 setopt auto_pushd
-export EDITOR='vim'
+export EDITOR='nvim'
 
 # binds
 bindkey '^p' history-search-backward
@@ -22,11 +22,12 @@ bindkey '^f' autosuggest-accept
 bindkey -e
 
 # aliases
+alias vim='nvim'
 alias ls='eza --icons=auto'
 alias l='ls -lah'
 alias ll='ls -lh'
 alias lt='ls -lhtr'
-alias grep='rg --color'
+alias grep='rg'
 alias -g ...='../..'
 alias -g ....='../../..'
 alias -g .....='../../../..'
